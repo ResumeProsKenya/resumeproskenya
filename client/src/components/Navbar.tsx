@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import SocialIcon from "./SocialIcon";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTelegramPlane, FaPinterest } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { TbBrandThreads } from "react-icons/tb";
+import { BsTiktok } from "react-icons/bs";
+import { SiBluesky } from "react-icons/si";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +60,12 @@ export default function Navbar() {
           <SocialIcon href="https://wa.me/254706874794" icon={<FaWhatsapp className="text-lg" />} color="text-green-600" />
           <SocialIcon href="#" icon={<FaFacebookF />} color="text-blue-600" />
           <SocialIcon href="#" icon={<FaInstagram />} color="text-pink-600" /> 
+          <SocialIcon href="#" icon={<TbBrandThreads />} color="text-black" />
+          <SocialIcon href="#" icon={<BsTiktok />} color="text-black" />
+          <SocialIcon href="#" icon={<FaTelegramPlane />} color="text-blue-500" />
+          <SocialIcon href="#" icon={<FaPinterest />} color="text-red-600" />
           <SocialIcon href="#" icon={<FaXTwitter />} color="text-black" />
+          <SocialIcon href="#" icon={<SiBluesky />} color="text-blue-400" />
         </div>
       </div>
       
@@ -70,11 +78,16 @@ export default function Navbar() {
           <a href="#about" className="nav-link py-2 font-montserrat font-medium" onClick={() => setIsMenuOpen(false)}>About Us</a>
           <a href="#contact" className="nav-link py-2 font-montserrat font-medium" onClick={() => setIsMenuOpen(false)}>Contact</a>
           
-          <div className="flex items-center space-x-4 py-2">
+          <div className="flex flex-wrap items-center gap-4 py-2">
             <SocialIcon href="https://wa.me/254706874794" icon={<FaWhatsapp className="text-lg" />} color="text-green-600" />
             <SocialIcon href="#" icon={<FaFacebookF />} color="text-blue-600" />
             <SocialIcon href="#" icon={<FaInstagram />} color="text-pink-600" />
+            <SocialIcon href="#" icon={<TbBrandThreads />} color="text-black" />
+            <SocialIcon href="#" icon={<BsTiktok />} color="text-black" />
+            <SocialIcon href="#" icon={<FaTelegramPlane />} color="text-blue-500" />
+            <SocialIcon href="#" icon={<FaPinterest />} color="text-red-600" />
             <SocialIcon href="#" icon={<FaXTwitter />} color="text-black" />
+            <SocialIcon href="#" icon={<SiBluesky />} color="text-blue-400" />
           </div>
         </div>
       </div>

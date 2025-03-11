@@ -6,9 +6,12 @@ export const SOCIAL_LINKS = {
   whatsapp: `https://wa.me/${WHATSAPP_NUMBER}`,
   facebook: "#",
   instagram: "#",
-  twitter: "#",
+  threads: "#",
+  tiktok: "#",
   telegram: "#",
   pinterest: "#",
+  twitter: "#",
+  bluesky: "#",
 };
 
 export const SERVICES = [
