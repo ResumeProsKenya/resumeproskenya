@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <div>
-            <img src="https://thumbs2.imgbox.com/b9/f6/vRkIzuvG_t.png" alt="ResumeProsKenya Logo" className="h-12 w-auto" />
+            <img src="https://thumbs2.imgbox.com/b3/ce/IGMXJ7w4_t.jpg" alt="ResumeProsKenya Logo" className="h-12 w-auto" />
           </div>
           <h1 className="text-2xl font-montserrat font-bold">
             <span className="text-black">Resume</span><span className="text-red-600">Pros</span><span className="text-black">Kenya</span>
