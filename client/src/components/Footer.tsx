@@ -11,9 +11,14 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-montserrat font-bold">
-              <span className="text-white">Resume</span><span className="text-red-600">Pros</span><span className="text-white">Kenya</span>
-            </h2>
+            <div className="flex items-center gap-3 mb-2">
+              <div>
+                <img src="https://thumbs2.imgbox.com/b9/f6/vRkIzuvG_t.png" alt="ResumeProsKenya Logo" className="h-16 w-auto" />
+              </div>
+              <h2 className="text-2xl font-montserrat font-bold">
+                <span className="text-white">Resume</span><span className="text-red-600">Pros</span><span className="text-white">Kenya</span>
+              </h2>
+            </div>
             <p className="text-gray-400 mt-2">Elevating careers with professional documents.</p>
           </div>
           
