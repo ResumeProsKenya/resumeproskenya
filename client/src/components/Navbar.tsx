@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { TbBrandThreads } from "react-icons/tb";
 import { BsTiktok } from "react-icons/bs";
 import { SiBluesky } from "react-icons/si";
+import { SOCIAL_LINKS } from "../lib/constants";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,5 +1,8 @@
-import { FaWhatsapp, FaFacebookF, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FaWhatsapp, FaFacebookF, FaInstagram, FaTelegramPlane, FaPinterest } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { TbBrandThreads } from "react-icons/tb";
+import { BsTiktok } from "react-icons/bs";
+import { SiBluesky } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -13,7 +16,7 @@ export default function Footer() {
             <p className="text-gray-400 mt-2">Elevating careers with professional documents.</p>
           </div>
           
-          <div className="flex space-x-6">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
             <a 
               href="https://wa.me/254706874794" 
               className="hover:text-green-400 transition duration-300"
@@ -39,6 +42,20 @@ export default function Footer() {
             </a>
             <a 
               href="#" 
+              className="hover:text-black transition duration-300"
+              aria-label="Threads"
+            >
+              <TbBrandThreads className="text-2xl" />
+            </a>
+            <a 
+              href="#" 
+              className="hover:text-black transition duration-300"
+              aria-label="TikTok"
+            >
+              <BsTiktok className="text-2xl" />
+            </a>
+            <a 
+              href="#" 
               className="hover:text-blue-400 transition duration-300"
               aria-label="Telegram"
             >
@@ -46,10 +63,24 @@ export default function Footer() {
             </a>
             <a 
               href="#" 
+              className="hover:text-red-400 transition duration-300"
+              aria-label="Pinterest"
+            >
+              <FaPinterest className="text-2xl" />
+            </a>
+            <a 
+              href="#" 
               className="hover:text-gray-400 transition duration-300"
-              aria-label="Twitter"
+              aria-label="X (Twitter)"
             >
               <FaXTwitter className="text-2xl" />
+            </a>
+            <a 
+              href="#" 
+              className="hover:text-blue-400 transition duration-300"
+              aria-label="BlueSky"
+            >
+              <SiBluesky className="text-2xl" />
             </a>
           </div>
         </div>

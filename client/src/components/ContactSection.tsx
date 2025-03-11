@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 import SocialIcon from "./SocialIcon";
 import { FaWhatsapp, FaEnvelope, FaFacebookF, FaInstagram, FaTelegramPlane, FaPinterest } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { TbBrandThreads } from "react-icons/tb";
+import { BsTiktok } from "react-icons/bs";
+import { SiBluesky } from "react-icons/si";
 
 export default function ContactSection() {
   return (
@@ -79,11 +83,16 @@ export default function ContactSection() {
                 
                 <div className="mt-10">
                   <h4 className="font-montserrat font-medium text-lg mb-4">Follow Us</h4>
-                  <div className="flex space-x-4">
-                    <SocialIcon href="#" icon={<FaFacebookF />} color="text-blue-600" />
-                    <SocialIcon href="#" icon={<FaInstagram />} color="text-pink-600" />
-                    <SocialIcon href="#" icon={<FaTelegramPlane />} color="text-blue-500" />
-                    <SocialIcon href="#" icon={<FaPinterest />} color="text-red-600" />
+                  <div className="flex flex-wrap gap-4">
+                    <SocialIcon href="https://wa.me/254706874794" icon={<FaWhatsapp className="text-lg" />} color="text-green-600" />
+                    <SocialIcon href="https://facebook.com/resumeproskenya" icon={<FaFacebookF />} color="text-blue-600" />
+                    <SocialIcon href="https://instagram.com/resumeproskenya" icon={<FaInstagram />} color="text-pink-600" />
+                    <SocialIcon href="https://threads.net/resumeproskenya" icon={<TbBrandThreads />} color="text-black" />
+                    <SocialIcon href="https://tiktok.com/@resumeproskenya" icon={<BsTiktok />} color="text-black" />
+                    <SocialIcon href="https://t.me/resumeproskenya" icon={<FaTelegramPlane />} color="text-blue-500" />
+                    <SocialIcon href="https://pinterest.com/resumeproskenya" icon={<FaPinterest />} color="text-red-600" />
+                    <SocialIcon href="https://twitter.com/resumeproskenya" icon={<FaXTwitter />} color="text-black" />
+                    <SocialIcon href="https://bsky.app/profile/resumeproskenya.bsky.social" icon={<SiBluesky />} color="text-blue-400" />
                   </div>
                 </div>
               </div>

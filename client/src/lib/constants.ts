@@ -4,14 +4,14 @@ export const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScO6EGc
 
 export const SOCIAL_LINKS = {
   whatsapp: `https://wa.me/${WHATSAPP_NUMBER}`,
-  facebook: "#",
-  instagram: "#",
-  threads: "#",
-  tiktok: "#",
-  telegram: "#",
-  pinterest: "#",
-  twitter: "#",
-  bluesky: "#",
+  facebook: "https://facebook.com/resumeproskenya",
+  instagram: "https://instagram.com/resumeproskenya",
+  threads: "https://threads.net/resumeproskenya",
+  tiktok: "https://tiktok.com/@resumeproskenya",
+  telegram: "https://t.me/resumeproskenya",
+  pinterest: "https://pinterest.com/resumeproskenya",
+  twitter: "https://twitter.com/resumeproskenya",
+  bluesky: "https://bsky.app/profile/resumeproskenya.bsky.social",
 };
 
 export const SERVICES = [
