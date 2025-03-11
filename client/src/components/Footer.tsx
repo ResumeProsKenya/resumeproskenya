@@ -3,6 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { TbBrandThreads } from "react-icons/tb";
 import { BsTiktok } from "react-icons/bs";
 import { SiBluesky } from "react-icons/si";
+import { SOCIAL_LINKS } from "../lib/constants";
 
 export default function Footer() {
   return (
@@ -18,7 +19,7 @@ export default function Footer() {
           
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
             <a 
-              href="https://wa.me/254706874794" 
+              href={SOCIAL_LINKS.whatsapp}
               className="hover:text-green-400 transition duration-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,57 +28,73 @@ export default function Footer() {
               <FaWhatsapp className="text-2xl" />
             </a>
             <a 
-              href="#" 
+              href={SOCIAL_LINKS.facebook}
               className="hover:text-blue-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
             >
               <FaFacebookF className="text-2xl" />
             </a>
             <a 
-              href="#" 
+              href={SOCIAL_LINKS.instagram}
               className="hover:text-pink-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
             >
               <FaInstagram className="text-2xl" />
             </a>
             <a 
-              href="#" 
-              className="hover:text-black transition duration-300"
+              href={SOCIAL_LINKS.threads}
+              className="hover:text-gray-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Threads"
             >
               <TbBrandThreads className="text-2xl" />
             </a>
             <a 
-              href="#" 
-              className="hover:text-black transition duration-300"
+              href={SOCIAL_LINKS.tiktok}
+              className="hover:text-gray-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="TikTok"
             >
               <BsTiktok className="text-2xl" />
             </a>
             <a 
-              href="#" 
+              href={SOCIAL_LINKS.telegram}
               className="hover:text-blue-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Telegram"
             >
               <FaTelegramPlane className="text-2xl" />
             </a>
             <a 
-              href="#" 
+              href={SOCIAL_LINKS.pinterest}
               className="hover:text-red-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Pinterest"
             >
               <FaPinterest className="text-2xl" />
             </a>
             <a 
-              href="#" 
+              href={SOCIAL_LINKS.twitter}
               className="hover:text-gray-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="X (Twitter)"
             >
               <FaXTwitter className="text-2xl" />
             </a>
             <a 
-              href="#" 
+              href={SOCIAL_LINKS.bluesky}
               className="hover:text-blue-400 transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="BlueSky"
             >
               <SiBluesky className="text-2xl" />
