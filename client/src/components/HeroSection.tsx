@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function HeroSection() {
   const [typedText, setTypedText] = useState("");
   const [isTypingComplete, setIsTypingComplete] = useState(false);
-  const fullText = "Expertly crafted CVs, cover letters, LinkedIn profiles, and portfolio websites designed to get you noticed globally.";
+  const fullText = "Professionally crafted Resumé/CV, Cover Letters, LinkedIn Profile, and Portfolio Website designed to get you noticed globally.";
   const typingSpeed = 50; // ms per character
   const typingRef = useRef<NodeJS.Timeout | null>(null);
   
@@ -64,7 +64,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+              src="https://i.imgur.com/OfX0MmP.jpg" 
               alt="Professional Resume" 
               className="rounded-lg shadow-xl max-w-full h-auto" 
               width="500" 
