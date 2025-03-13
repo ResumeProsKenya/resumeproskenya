@@ -17,7 +17,7 @@ export default function TestimonialsSection() {
   
   const testimonials: Testimonial[] = [
     {
-      name: "Daniel Mumbi",
+      name: "Joseph Kiambati",
       location: "Nairobi, Kenya",
       review: "I was struggling to get interview callbacks until Resume Pros Kenya revamped my CV. Within a week, I secured three interviews, and now I have a job I love. Highly recommended!",
       emoji: "📝"
@@ -29,39 +29,39 @@ export default function TestimonialsSection() {
       emoji: "📝"
     },
     {
-      name: "James O.",
+      name: "James McCartney",
       location: "London, UK",
-      review: "I had no idea my CV was holding me back until I got a professional rewrite. The difference was night and day—sleek, modern, and impactful. Best decision I made!",
+      review: "I had no idea my Resumé was holding me back until I got a professional rewrite. The difference was night and day—sleek, modern, and impactful. Best decision I made!",
       emoji: "📝"
     },
     {
-      name: "Cynthia W.",
+      name: "Cynthia Rodeo",
       location: "Toronto, Canada",
       review: "My LinkedIn profile went from invisible to eye-catching! Recruiters started reaching out almost immediately. Resume Pros Kenya truly knows what they're doing.",
       emoji: "📝"
     },
     {
-      name: "Ahmed S.",
+      name: "Ahmed Sarkodie",
       location: "Accra, Ghana",
-      review: "I needed a powerful cover letter that truly represented me. They crafted one that was professional yet personal, and it got me shortlisted for my dream job!",
+      review: "I needed a powerful cover letter and Resumé that truly represented me. They did professional work, and I shortlisted for my dream job!",
       emoji: "📝"
     },
     {
-      name: "Brian T.",
+      name: "Brian Olajide",
       location: "Lagos, Nigeria",
-      review: "Fast turnaround and top-notch quality! I got my modern CV within 24 hours, and it perfectly showcased my experience. I highly recommend their services.",
+      review: "Fast turnaround and top-notch quality! I got my modern CV within 7 hours, and it perfectly showcased my experience. I highly recommend their services.",
       emoji: "📝"
     },
     {
-      name: "Fatima R.",
+      name: "Fatima Zaidi",
       location: "New York, USA",
       review: "I was skeptical at first, but once I received my new resumé, I was blown away. It's polished, professional, and stands out. Best investment ever!",
       emoji: "📝"
     },
     {
-      name: "Aisha K.",
+      name: "Aisha Yahya",
       location: "Dubai, UAE",
-      review: "The ATS-compliant CV they created for me was a game-changer! My application finally made it past the system, and I landed an interview within days. Exceptional service!",
+      review: "The ATS-compliant Resumé they created for my Cruise ship application as 'Cabin Steward' was a game-changer! My application finally made it past the system, and I landed an interview within days. Exceptional service!",
       emoji: "📝"
     }
   ];
